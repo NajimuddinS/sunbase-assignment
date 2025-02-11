@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Form Designer</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <h3>Form Designer</h3>
+      <button id="save-btn">Save</button>
+    </div>
+
+    <div class="container">
+      <div class="sidebar">
+        <h4>Components</h4>
+        <button class="add-btn" data-type="input">Input <span>+</span></button>
+        <button class="add-btn" data-type="select">
+          Select <span>+</span>
+        </button>
+        <button class="add-btn" data-type="textarea">
+          Textarea <span>+</span>
+        </button>
+      </div>
+
+      <div class="form-container">
+        <div id="form-elements" class="form-elements"></div>
+      </div>
+    </div>
+
+    <script src="./script.js">
+    </script>
+  </body>
+</html>
