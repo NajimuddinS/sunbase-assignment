@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
         inputElement.type = "checkbox";
       }
       const deleteBtn = document.createElement("button");
-      deleteBtn.innerHTML = "&#128465;";
+      deleteBtn.innerHTML = "🗑️";
       deleteBtn.classList.add("delete-btn");
       deleteBtn.addEventListener("click", function () {
         formData = formData.filter((el) => el.id !== item.id);
