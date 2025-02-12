@@ -14,7 +14,7 @@ JavaScript: Interactivity, dynamic field addition, drag-and-drop functionality, 
 ## Project Setup
 Clone the repository:
 ```
-git clone https://github.com/NajimuddinS/sunbase-assignment/
+git clone https://github.com/NajimuddinS/sunbase-assignment.git
 cd sunbase-assignment
 ```
 Open the project in a browser:
